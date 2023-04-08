@@ -4,15 +4,21 @@ import QuoteBox from "./components/QuoteBox";
 import db from "./db/quotes.json";
 
 const arrayColor = ["#00c6ab", 
-"#c8ad8d", 
-"#f86f6f", 
-"#6aa3b4", 
-"#15ab92", 
-"#1e91ed",
-"#f50400",
-"#0c181c",
-"#9dc09d",
-"#68da3e"];
+"#7f5580", 
+"#a49ce0", 
+"#576373", 
+"#320c27", 
+"#b1d15e",
+"#a16563",
+"#bc89ad",
+"#9e616d",
+"#d9c67f",
+"#2f1709",
+"#bed9e8",
+"#23391d",
+"#e4d8e9",
+"#2080d8",
+"#1e0d14"];
 
 const getRandom = (arrayElements) => {
   const quantityValues = arrayElements.length;
